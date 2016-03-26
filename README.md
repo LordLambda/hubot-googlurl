@@ -1,5 +1,7 @@
 # hubot-googlurl
 
+[![Build Status](https://travis-ci.org/LordLambda/hubot-googlurl.svg?branch=master)](https://travis-ci.org/LordLambda/hubot-googlurl)
+
 A hubot script to shorten urls through googl
 
 See [`src/googl.coffee`](src/googl.coffee) for full documentation.
