@@ -1,0 +1,42 @@
+{
+  "name": "hubot-googlurl",
+  "description": "A hubot script to shorten urls through googl",
+  "version": "1.0.0",
+  "author": "Eric <ecoan@instructure.com>",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "google",
+    "url",
+    "shorten",
+    "googl",
+    "chatops"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LordLambda/hubot-googlurl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LordLambda/hubot-googlurl/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "goo.gl": "^0.1.4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-mocha-test": "~0.7.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test"
+  }
+}
