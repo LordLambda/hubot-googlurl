@@ -15,3 +15,10 @@ Then add **hubot-googlurl** to your `external-scripts.json`:
 ```json
 ["hubot-googlurl"]
 ```
+
+## Example Interaction
+
+```
+user1> @hubot shortenurl https://google.com
+hubot> @user1 https://goo.gl/0xP5
+```
